@@ -1,7 +1,7 @@
 TFAnimator
 ===
 
-TFAnimator, for Timing Function Animator, is a library allowing you to animate any UI component of your application with the Timing Function that you like. 
+TFAnimator, for Timing Function Animator, is a library allowing you to animate any UI component of your application using any Timing Function. 
 
 
 Usage
@@ -79,5 +79,5 @@ Check out: https://github.com/domhofmann/PRTween/
 License
 ===
 
-See the LICENSE file.
+BSD
 

@@ -63,6 +63,7 @@
     if ([keyPath isEqualToString:@"isAnimating"]) {
         TFAnimator *animator = (TFAnimator*)object;
         if (!animator.isAnimating) {
+            [animator removeObserver:self forKeyPath:@"isAnimating"];
             [self.animators removeObject:animator];
         }
     }
