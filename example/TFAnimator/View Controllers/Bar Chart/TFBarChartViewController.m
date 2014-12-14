@@ -91,7 +91,7 @@ static inline CGRect CGRectSetHFromBottom(CGRect r, CGFloat h)
 
 #pragma mark - Private
 
-- (int)getFinalValueForTag:(int)tag
+- (int)getFinalValueForTag:(NSUInteger)tag
 {
     if (tag == 1) {
         return 470;

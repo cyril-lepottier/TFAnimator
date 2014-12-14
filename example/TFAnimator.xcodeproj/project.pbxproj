@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F15B3A631A38C0B2004FC45F /* PRTweenTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B3A601A38C0B2004FC45F /* PRTweenTimingFunctions.m */; };
 		F15B3A641A38C0B2004FC45F /* TFAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B3A621A38C0B2004FC45F /* TFAnimator.m */; };
+		F17866981A3C73C700D0637B /* TFFancyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17866971A3C73C700D0637B /* TFFancyViewController.m */; };
 		F1F294AB198D147B00DDC1FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F294AA198D147B00DDC1FB /* Foundation.framework */; };
 		F1F294AD198D147B00DDC1FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F294AC198D147B00DDC1FB /* CoreGraphics.framework */; };
 		F1F294AF198D147B00DDC1FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F294AE198D147B00DDC1FB /* UIKit.framework */; };
@@ -33,6 +34,8 @@
 		F15B3A601A38C0B2004FC45F /* PRTweenTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRTweenTimingFunctions.m; sourceTree = "<group>"; };
 		F15B3A611A38C0B2004FC45F /* TFAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFAnimator.h; sourceTree = "<group>"; };
 		F15B3A621A38C0B2004FC45F /* TFAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFAnimator.m; sourceTree = "<group>"; };
+		F17866961A3C73C700D0637B /* TFFancyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFFancyViewController.h; sourceTree = "<group>"; };
+		F17866971A3C73C700D0637B /* TFFancyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFancyViewController.m; sourceTree = "<group>"; };
 		F1F294A7198D147B00DDC1FB /* TFAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F294AA198D147B00DDC1FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F1F294AC198D147B00DDC1FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,6 +93,15 @@
 			);
 			name = lib;
 			path = ../lib;
+			sourceTree = "<group>";
+		};
+		F17866951A3C72F600D0637B /* Fancy */ = {
+			isa = PBXGroup;
+			children = (
+				F17866961A3C73C700D0637B /* TFFancyViewController.h */,
+				F17866971A3C73C700D0637B /* TFFancyViewController.m */,
+			);
+			path = Fancy;
 			sourceTree = "<group>";
 		};
 		F1F2949E198D147B00DDC1FB = {
@@ -156,6 +168,7 @@
 				F1F2950D198E32C300DDC1FB /* Color */,
 				F1F2951F198E32E100DDC1FB /* Label */,
 				F1F29507198E32C300DDC1FB /* Bar Chart */,
+				F17866951A3C72F600D0637B /* Fancy */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -315,6 +328,7 @@
 				F1F2951D198E32C300DDC1FB /* TFDrawFunctionsViewController.m in Sources */,
 				F1F29519198E32C300DDC1FB /* TFBarChartViewController.m in Sources */,
 				F1F2951B198E32C300DDC1FB /* TFColorViewController.m in Sources */,
+				F17866981A3C73C700D0637B /* TFFancyViewController.m in Sources */,
 				F15B3A641A38C0B2004FC45F /* TFAnimator.m in Sources */,
 				F1F2951E198E32C300DDC1FB /* TFHomeViewController.m in Sources */,
 				F1F294F1198D2A9200DDC1FB /* UIColor+RandomColor.m in Sources */,

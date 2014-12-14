@@ -202,8 +202,7 @@
 
 - (IBAction)helpButtonPressed:(id)sender
 {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Horinzontal axis: Time\nVertical axis: Normalized value from 0 to 1 (With some functions, the normalized value can go outside the bounds)" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
-    [alert show];
+    [[[UIAlertView alloc] initWithTitle:@"" message:@"Horinzontal axis: Time\nVertical axis: Position, normalized value" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil] show];
 }
 
 

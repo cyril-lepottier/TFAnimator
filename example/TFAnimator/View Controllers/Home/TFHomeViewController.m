@@ -59,7 +59,7 @@
         return 1;
     }
     else {
-        return 4;
+        return 5;
     }
 }
 
@@ -94,6 +94,9 @@
         else if (indexPath.row == 3) {
             cell.textLabel.text = @"Animate Bar Chart";
         }
+        else if (indexPath.row == 4) {
+            cell.textLabel.text = @"Fancy animations";
+        }
         else {
             cell.textLabel.text = @"***";
         }
@@ -124,6 +127,9 @@
         }
         else if (indexPath.row == 3) {
             segueID = @"BarChartSegue";
+        }
+        else if (indexPath.row == 4) {
+            segueID = @"FancySegue";
         }
         else {
             return;
